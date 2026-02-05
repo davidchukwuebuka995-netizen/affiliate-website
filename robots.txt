@@ -4,30 +4,8 @@
 User-agent: *
 Allow: /
 
-# Allow all crawlers to access all content
-Disallow: /assets/
-Disallow: /*.json$
-
 # Sitemap location
 Sitemap: https://davidchukwuebuka995-netizen.github.io/affiliate-website/sitemap.xml
-
-# Crawl-delay (optional, helps prevent server overload)
-# Crawl-delay: 1
-
-# Allow indexing of main content
-Allow: /*.html$
-Allow: /*.css$
-Allow: /posts/
-
-# Specific bot directives for major search engines
-User-agent: Googlebot
-Allow: /
-
-User-agent: Googlebot-Image
-Allow: /assets/
-
-User-agent: Bingbot
-Allow: /
 
 # Block bad bots (optional)
 User-agent: AhrefsBot
