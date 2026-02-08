@@ -1,4 +1,4 @@
-
+﻿
 # Copilot Instructions (Affiliate Website)
 
 ## Big picture
@@ -30,5 +30,6 @@
 - Local preview: open HTML directly or run a simple static server (python -m http.server 8000).
 
 ## Integrations & placeholders
-- GA4 uses GA_MEASUREMENT_ID in every page head; replace in all HTML when activating.
+- GA4 uses G-JYNJV9DKTH in every page head; replace in all HTML when activating.
 - Contact form currently shows an alert (no backend integration).
+

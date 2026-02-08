@@ -4,16 +4,16 @@
 
 These items are **placeholders** that need to be configured by the site owner, but are not code bugs:
 
-### 1. Google Analytics (GA_MEASUREMENT_ID)
+### 1. Google Analytics (G-JYNJV9DKTH)
 **Status:** ⚠️ Needs Configuration  
-**Location:** All HTML files (search for `GA_MEASUREMENT_ID`)  
-**Action Required:** Replace `GA_MEASUREMENT_ID` with your actual Google Analytics 4 measurement ID
+**Location:** All HTML files (search for `G-JYNJV9DKTH`)  
+**Action Required:** Replace `G-JYNJV9DKTH` with your actual Google Analytics 4 measurement ID
 
 **How to fix:**
 1. Get your GA4 measurement ID from Google Analytics (format: G-XXXXXXXXXX)
 2. Run a find & replace across all HTML files:
    ```bash
-   find . -name "*.html" -type f -exec sed -i 's/GA_MEASUREMENT_ID/G-XXXXXXXXXX/g' {} +
+   find . -name "*.html" -type f -exec sed -i 's/G-JYNJV9DKTH/G-XXXXXXXXXX/g' {} +
    ```
 
 ### 2. Form Handlers
@@ -60,4 +60,5 @@ All social media links point to existing accounts (Pinterest, X/Twitter, TikTok,
 - All affiliate links use proper Amazon UK format with affiliate tag
 - All post files use correct relative paths (../ prefix)
 - Site is fully functional except for GA tracking and form submissions which need configuration
+
 

@@ -1,4 +1,4 @@
-# Quick Reference - All Tasks Status
+﻿# Quick Reference - All Tasks Status
 
 ## ✅ COMPLETED TASKS
 
@@ -58,7 +58,7 @@ Then enable in GitHub Settings → Pages → Deploy from main branch
 2. Create new property
 3. Copy Measurement ID (format: `G-XXXXXXXXXX`)
 4. Find & Replace in VS Code:
-   - Find: `GA_MEASUREMENT_ID`
+   - Find: `G-JYNJV9DKTH`
    - Replace: Your actual ID (e.g., `G-ABC123XYZ`)
 5. Push to GitHub
 6. Verify tracking is working in real-time
@@ -181,7 +181,7 @@ affiliate-website/
 
 ### Before Going Live:
 1. [ ] Get GA4 Measurement ID
-2. [ ] Replace `GA_MEASUREMENT_ID` with your actual ID
+2. [ ] Replace `G-JYNJV9DKTH` with your actual ID
 3. [ ] Replace `YOUR-LIVE-URL-HERE` with your GitHub Pages URL
 4. [ ] Deploy to GitHub (git push)
 5. [ ] Verify GA4 is tracking
@@ -241,3 +241,4 @@ After deploying, monitor these in Google Analytics:
 ---
 
 **You're ready to launch. All the hard work is done. Time to make money. Good luck! 🚀**
+

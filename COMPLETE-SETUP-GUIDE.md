@@ -75,7 +75,7 @@ GA4 tracking code added to all 16 pages.
 ### Step 2: Replace Placeholder in All Files
 Find and replace in all HTML files:
 ```
-GA_MEASUREMENT_ID
+G-JYNJV9DKTH
 ```
 
 With your actual ID:
@@ -299,4 +299,5 @@ You now have a **professional, SEO-optimized, monetization-ready affiliate websi
 - ✅ UK-compliant (GDPR, ASA, FTC disclosure)
 
 **Good luck and let me know if you need help with any of these tasks!**
+
 

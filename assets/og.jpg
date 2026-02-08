@@ -10,6 +10,7 @@
     <text x="60" y="180" font-size="48" font-weight="700">Alright Mate Reviews</text>
     <text x="60" y="250" font-size="28">Honest product reviews & recommendations for UK shoppers</text>
     <rect x="60" y="320" width="380" height="60" rx="8" fill="#ffffff20" />
-    <text x="80" y="358" font-size="22">Visit our reviews: github.io/your-repo</text>
+    <text x="80" y="358" font-size="22">Visit our reviews: https://www.alrightmatereviews.com/</text>
   </g>
 </svg>
+
