@@ -1,4 +1,4 @@
-# DEPLOYMENT GUIDE
+﻿# DEPLOYMENT GUIDE
 
 ## Quick GitHub Pages Deployment
 
@@ -102,7 +102,7 @@ Then visit `http://YOUR-IP:8000` from your phone.
 - [ ] All affiliate links point to correct products
 - [ ] Email in contact form is correct
 - [ ] Social media links in footer are updated
-- [ ] Site name is updated (not "AffiliateReviews UK")
+- [ ] Site name is updated (not "Alright Mate Reviews")
 - [ ] Mobile responsiveness tested
 - [ ] No broken links (test all navigation)
 - [ ] Meta descriptions are compelling
@@ -197,3 +197,4 @@ If deployment fails:
 **Your site is now live! 🚀**
 
 Start creating content and promoting on social media. Most affiliate sites take 3-6 months to see meaningful traffic, so be patient and consistent.
+

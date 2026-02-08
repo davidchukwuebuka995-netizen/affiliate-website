@@ -1,4 +1,4 @@
-# QUICK START GUIDE
+﻿# QUICK START GUIDE
 
 ## 30-Second Setup
 
@@ -23,7 +23,7 @@
 
 ### Change Your Site Name
 1. Open `index.html` in a text editor (VS Code, Notepad, etc.)
-2. Find: `AffiliateReviews UK`
+2. Find: `Alright Mate Reviews`
 3. Replace with: Your site name
 4. Do the same in: `blog.html`, `about.html`, `contact.html`, `posts/` files
 
@@ -217,3 +217,4 @@ Your affiliate website is ready. Now go write great reviews and build an audienc
 **Remember:** Most successful affiliate sites took 6-12 months to make real money. Focus on quality content and genuine recommendations.
 
 **Good luck!** 🚀
+

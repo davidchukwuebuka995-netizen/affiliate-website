@@ -1,4 +1,4 @@
-# Site Configuration Notes
+﻿# Site Configuration Notes
 
 ## Items Requiring Manual Configuration
 
@@ -44,7 +44,7 @@ All social media links point to existing accounts (Pinterest, X/Twitter, TikTok,
 ### ✅ Fixed Issues:
 1. **CSS Duplication** - Removed 644 duplicate lines from style.css (50% file size reduction)
 2. **Incomplete Sitemap** - Added 5 missing posts to sitemap.xml
-3. **Brand Inconsistency** - Fixed "Alright Mate Reviews" → "AffiliateReviews UK" in best-smart-scale-uk-2026.html
+3. **Brand Inconsistency** - Fixed "Alright Mate Reviews" → "Alright Mate Reviews" in best-smart-scale-uk-2026.html
 4. **best-kettles-uk.html Structure** - Completely rewrote to match proper template with:
    - Full header with navigation
    - Proper meta tags and structured data
@@ -60,3 +60,4 @@ All social media links point to existing accounts (Pinterest, X/Twitter, TikTok,
 - All affiliate links use proper Amazon UK format with affiliate tag
 - All post files use correct relative paths (../ prefix)
 - Site is fully functional except for GA tracking and form submissions which need configuration
+

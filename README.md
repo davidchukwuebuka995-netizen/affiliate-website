@@ -1,4 +1,4 @@
-# AffiliateReviews UK - Affiliate Marketing Website
+﻿# Alright Mate Reviews - Affiliate Marketing Website
 
 A professional, fast, and mobile-friendly affiliate marketing website built with pure HTML + CSS (no frameworks). Ready to deploy on GitHub Pages.
 
@@ -103,7 +103,7 @@ Then enable GitHub Pages in your repository settings.
 ### Change Site Name & Branding
 
 **Edit in all HTML files:**
-- Replace `AffiliateReviews UK` with your site name
+- Replace `Alright Mate Reviews` with your site name
 - Update `mailto:hello@affiliatereviews.co.uk` with your email
 
 **Edit in CSS (`style.css`):**
@@ -306,3 +306,4 @@ Free to use and modify for your own projects. No attribution required, but appre
 ---
 
 **Ready to launch?** Make your first commit and deploy to GitHub Pages. Your affiliate website is ready to go! 🚀
+

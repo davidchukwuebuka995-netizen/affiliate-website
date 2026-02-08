@@ -1,4 +1,4 @@
-# Complete Setup & Deployment Guide
+﻿# Complete Setup & Deployment Guide
 
 ## Task 1: ✅ Written & Complete
 - 3 new reviews created (Coffee Makers, Mechanical Keyboards, Wireless Chargers)
@@ -65,7 +65,7 @@ GA4 tracking code added to all 16 pages.
 ### Step 1: Get Your GA4 Measurement ID
 1. Go to [analytics.google.com](https://analytics.google.com)
 2. Click "Start measuring"
-3. Enter property name: "AffiliateReviews UK"
+3. Enter property name: "Alright Mate Reviews"
 4. Select "United Kingdom" timezone
 5. Create property
 6. Select "Web" platform
@@ -158,7 +158,7 @@ Add this before `</head>` in each review article (example for best-airfryers-uk.
   "datePublished": "2025-02-03",
   "author": {
     "@type": "Organization",
-    "name": "AffiliateReviews UK"
+    "name": "Alright Mate Reviews"
   },
   "reviewRating": {
     "@type": "Rating",
@@ -210,7 +210,7 @@ Focus on these keyword patterns:
 
 ### Option A: Mailchimp (Recommended - Free Tier)
 1. Go to [mailchimp.com](https://mailchimp.com) → Sign up free
-2. Create audience "AffiliateReviews UK"
+2. Create audience "Alright Mate Reviews"
 3. Get your **Audience ID** and **API Key**
 4. Use their form embed code or integrate with Formspree (below)
 
@@ -299,3 +299,4 @@ You now have a **professional, SEO-optimized, monetization-ready affiliate websi
 - ✅ UK-compliant (GDPR, ASA, FTC disclosure)
 
 **Good luck and let me know if you need help with any of these tasks!**
+
