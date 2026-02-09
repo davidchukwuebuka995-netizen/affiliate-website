@@ -518,6 +518,53 @@ footer p {
   border-radius: 0.5rem;
 }
 
+.hero-banner {
+  background: url("/posts/images/alright-mate-banner.png") center center / cover no-repeat;
+  height: 420px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.45);
+  padding: 40px;
+  text-align: center;
+  color: #fff;
+  max-width: 800px;
+  border-radius: 8px;
+}
+
+.hero-overlay h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.hero-overlay p {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+}
+
+.hero-buttons a {
+  display: inline-block;
+  padding: 12px 22px;
+  margin: 5px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: #0d6efd;
+  color: #fff;
+}
+
+.btn-secondary {
+  background: #ffffff;
+  color: #0d6efd;
+}
+
 /* Comparison tables (affiliate-friendly) */
 table {
   width: 100%;
