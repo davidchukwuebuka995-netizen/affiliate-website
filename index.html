@@ -85,14 +85,31 @@
 
 <!-- ===== HERO SECTION ===== -->
 <section class="hero-banner">
+  <picture>
+    <!-- Mobile image (optional): put a smaller/cropped banner here later -->
+    <!-- <source media="(max-width: 640px)" srcset="/images/alright-mate-banner-mobile.png"> -->
+    <img
+      src="/posts/images/alright-mate-banner.png"
+      alt="Alright Mate Reviews - UK Tech & Gadget Reviews"
+      class="hero-img"
+      width="1600"
+      height="600"
+      loading="lazy"
+      decoding="async"
+      fetchpriority="high"
+    />
+  </picture>
+
   <div class="hero-overlay">
-    <h1>Find the Best Products. Handpicked by Experts.</h1>
-    <p>Honest, independent reviews of the top products UK shoppers are buying</p>
+    <h1>Alright Mate Reviews</h1>
+    <p>Honest UK tech & home picks. No waffle. Updated guides & deals.</p>
 
     <div class="hero-buttons">
-      <a href="/blog.html" class="btn-primary">Browse Reviews</a>
-      <a href="/about.html" class="btn-secondary">Learn More</a>
+      <a href="/reviews.html" class="btn-primary" id="cta-primary">Browse Reviews</a>
+      <a href="/about.html" class="btn-secondary" id="cta-secondary">Learn More</a>
     </div>
+
+    <p class="hero-note">We may earn a commission from qualifying purchases.</p>
   </div>
 </section>
 
@@ -404,6 +421,45 @@
     <p>&copy; 2025 Alright Mate Reviews. All rights reserved.</p>
   </div>
 </footer>
+
+<script>
+(function () {
+  const params = new URLSearchParams(window.location.search);
+  const utmSource = (params.get("utm_source") || "").toLowerCase();
+  const ref = (document.referrer || "").toLowerCase();
+
+  const primary = document.getElementById("cta-primary");
+  const secondary = document.getElementById("cta-secondary");
+
+  function setCTA(text, href) {
+    if (!primary) return;
+    primary.textContent = text;
+    primary.href = href;
+  }
+
+  // Pick your money page(s)
+  const robot = "/posts/best-robot-vacuums-uk-2026.html";
+  const earbuds = "/posts/best-earbuds-under-50-uk-2026.html";
+  const airfry = "/posts/best-air-fryers-uk-2026.html";
+
+  // If you tag links like ?utm_source=tiktok, etc.
+  if (utmSource.includes("pinterest") || ref.includes("pinterest")) {
+    setCTA("See Top UK Deals", robot);
+  } else if (utmSource.includes("tiktok") || ref.includes("tiktok")) {
+    setCTA("Best Budget Earbuds", earbuds);
+  } else if (utmSource.includes("youtube") || ref.includes("youtube")) {
+    setCTA("Best Air Fryers UK", airfry);
+  } else if (utmSource.includes("x") || ref.includes("twitter") || ref.includes("t.co")) {
+    setCTA("Top Picks (Updated)", robot);
+  }
+
+  // Optional: make secondary button go to Contact from social
+  if (secondary && (utmSource || ref)) {
+    secondary.textContent = "Contact";
+    secondary.href = "/contact.html";
+  }
+})();
+</script>
 
 </body>
 </html>
